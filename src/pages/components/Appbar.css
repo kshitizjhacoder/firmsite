@@ -1,0 +1,86 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(31, 30, 30); 
+}
+.layout-box{
+    margin-top:10px;
+    width: 1380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background: transparent;
+}
+.menu-bar{
+    height: inherit;
+    width: 400px;
+    background: transparent;
+    margin-right: -50px;
+}
+.layout-logo{
+    color: rgb(17, 19, 20);
+    font-size: 48px;    
+    cursor:pointer;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    margin-right: -24px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin-right: -35px;
+}
+.nav-links{
+    font-size: 24px;
+    font-family: 'Readex Pro';
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    position: relative;
+}
+.service-links{
+    color: #ff9a3f;
+    font-size: 24px;
+    font-family: 'Readex Pro' ,sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+
+    position: relative;
+}
+.nav-links-contact{
+    background-color: #ff9a3f; 
+  border: none;
+  color: rgb(15, 15, 15);
+  padding: 12px 32px;
+  text-align: center;
+  font-family: 'Readex Pro';
+  font-weight: 700;
+
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  font-size: 19px;
+  transition: 600ms;
+}
+.nav-links-contact:not(:disabled):hover,
+.nav-links-contact:not(:disabled):focus {
+  outline: 0;
+  background: #ffa30f;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.nav-links-contact:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}

@@ -1,0 +1,99 @@
+.head-design-web{
+    padding: 1pc;
+    width: 100%;
+    padding-left: 60vh;
+    
+}
+.head-design-pic-web{
+    width: 30pc;
+    height: 18pc;
+}
+.head-design-container-web{
+    height: 6.5pc;
+    padding-left: 5pc;
+}
+.head-design-head-web{
+    margin-left: -7pc;
+    letter-spacing: 1px;
+    font-family: 'Fredoka';
+    font-weight: 700;
+    font-size: 50px;
+}
+.head-design-sub-web{
+    margin-top: 0px;
+    font-weight: 600;
+    font-family:'Readex Pro';
+    display: flex;
+    justify-content: center;
+    padding-right: 3pc;
+}
+.design-body-web{
+    font-weight: 600;
+    font-family:'Readex Pro';
+    padding-left: 5pc;
+    padding-right: 5pc;
+    padding-bottom: 5pc;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.sub-design-web{
+    width: 100%;
+    padding-left: 7pc;
+    padding-right: 7pc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tag1-web{
+    margin-top: 0pc;
+    width: 40%;
+    padding-top:5pc;
+    padding-left: 2pc;
+    padding-right: 1pc;
+    padding-bottom: 3pc;
+    background-color: #ff9a3f;
+    border-radius: 0 5rem;
+    box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
+}
+.head-sub-web{
+    background-color:  transparent;
+    margin-bottom: 3pc;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 30px;
+}
+.body-sub-web{
+    background-color:transparent;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: aliceblue;
+    word-spacing: 4px;
+    font-family:'Readex Pro';
+    font-style: normal;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 1pc;
+    background: transparent;
+}
+.li-web{
+    margin-top: 2px;
+    background-color: transparent;
+    word-spacing: 2px;
+    font-weight: 550;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+.tag2-web{
+    width: 40%;
+    margin-top: 15pc;
+    padding: 5pc;
+    background-color:#ff9a3f;
+    border-radius: 0 5rem;
+    box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
+    /* color: azure; */
+}

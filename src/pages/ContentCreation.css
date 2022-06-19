@@ -1,0 +1,87 @@
+.head-design{
+    padding: 1pc;
+    width: 100%;
+    padding-left: 60vh;
+    
+}
+.head-design-pic{
+    width: 35pc;
+    height: 20pc;
+}
+.head-design-container{
+    height: 6.5pc;
+    padding-left: 5pc;
+}
+.head-design-head{
+    margin-left: 0;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family: 'Fredoka';
+    font-weight: 700;
+    font-size: 50px;
+}
+.head-design-sub{
+    margin-top: 0px;
+    font-weight: 600;
+    font-family:'Readex Pro';
+    display: flex;
+    justify-content: center;
+    padding-right: 3pc;
+}
+.design-body{
+    font-weight: 600;
+    font-family:'Readex Pro';
+    padding-left: 5pc;
+    padding-right: 5pc;
+    padding-bottom: 5pc;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.sub-design{
+    width: 100%;
+    padding-left: 7pc;
+    padding-right: 7pc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tag1{
+    margin-top: -15pc;
+    width: 40%;
+    height: 30pc;
+    padding: 5pc;
+    background-color: #ff9a3f;
+    border-radius: 0 5rem;
+    box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
+
+    /* color: azure; */
+}
+.head-sub{
+    background-color:  transparent;
+    margin-bottom: 3pc;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 30px;
+}
+.body-sub{
+    background-color:transparent;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: aliceblue;
+    word-spacing: 4px;
+    font-family:'Readex Pro';
+    font-style: normal;
+    font-size: 20px;
+    float: left;
+}
+.tag2{
+    width: 40%;
+    margin-top: 15pc;
+    padding: 5pc;
+    background-color:#ff9a3f;
+    border-radius: 0 5rem;
+    box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
+    
+    /* color: azure; */
+}
