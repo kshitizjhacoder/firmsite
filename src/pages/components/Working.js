@@ -9,6 +9,7 @@ const containers =[
     },
     {
         src:Image,
+        // text: "hgsdfiwksdfbhjd sdjghbs idh"
         text:"We are the whole package ranging from web design, social media management, product photoshoot and videography and the list goes on."
     },
     {
