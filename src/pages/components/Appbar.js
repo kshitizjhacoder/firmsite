@@ -8,7 +8,7 @@ export default function Appbar() {
       <div className='menu-icon'>
       </div>
       <h1 className='layout-logo'>FantFolks</h1>
-      <div className='menu-bar'></div>
+      {/* <div className='menu-bar'></div> */}
       <ul className='nav-menu'>
         {Menuitem.map((item,index)=>{
           return(
