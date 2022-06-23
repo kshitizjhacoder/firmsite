@@ -1,9 +1,10 @@
 import React from 'react'
-import Image from'./Images/doodleart1.jpg'
+import Image  from './media/wdd2.webp'
+
 import './Aboutus.css'
 const Aboutus=()=> {
   return (
-    <div>
+    <div className='about_main'>
     <h1 className='about-head'>About us</h1>
     <div className='about-us'>
         <img src={Image} className='about-pic'/>

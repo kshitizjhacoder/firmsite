@@ -12,33 +12,39 @@ a{
 }
 .layout-box{
     margin-top:10px;
-    width: 1380px;
+    width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
     height: 10vh;
     background: transparent;
 }
-.menu-bar{
+/* .menu-bar{
     height: inherit;
     width: 400px;
     background: transparent;
     margin-right: -50px;
-}
+} */
 .layout-logo{
     color: rgb(17, 19, 20);
     font-size: 48px;    
     cursor:pointer;
     font-family: 'Readex Pro';
     font-style: normal;
-    margin-right: -24px;
+    vertical-align: middle;
+    /* margin-right: -24px; */
 }
 .nav-menu{
     display: flex;
+    flex-direction: row;
+    /* float: right; */
+    right: 0;
+    width: 70%;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
-    margin-right: -35px;
+    /* margin-left: 350px; */
 }
 .nav-links{
     font-size: 24px;

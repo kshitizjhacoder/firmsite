@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-layout{
+    padding-top: 5vh;
+    padding-left: 25px;
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    background: transparent;
+}
+.inner-body{
+    /* width: 70%; */
+    margin-left: 4pc;
+    margin-top: 6rem;
+    align-items: center;
+}
+.inner-body h1{
+    width: 500px;
+    line-height: 60px;
+    font-family:'Fredoka',sans-serif;
+    font-style:normal;
+    letter-spacing: 0.055em;
+    font-weight: 600;
+    font-size: 55px;
+    background-color:transparent;
+}
+.description{
+    position: relative;
+    width: 57%;
+    height: 35px;
+    left:10px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+}
+.login{
+    margin-top: 2pc;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login input{
+    /* margin-left: 1rem; */
+    padding-left: 20px;
+    width: 68%;
+    height: 60px;
+    font-family: 'Readex Pro';
+    letter-spacing: 0.07em;
+    font-size: 1.1rem;
+    /* border:1px solid rgb(82, 80, 80); */
+    border: 1px solid var(--bc);
+    border-radius: 6px;
+    transition: 400ms;
+    cursor:text;
+}
+
+
+div.login button{
+    width: 8vw;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    border: none;
+    color: var(--ptc);
+    background: var(--ap);
+}
+input:hover{
+    border:2px solid #b37d27;
+}
+
+.imag{
+    margin-top: 6rem;
+    margin-right: 5rem;
+    height: 400px;
+    width: 600px;
+}

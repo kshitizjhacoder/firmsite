@@ -1,6 +1,7 @@
 import React from 'react'
 import './appreciated.css'
-import Image from './Images/doodleart1.jpg'
+import Image  from './media/wdd2.webp'
+
 const Appreciated=()=> {
   return (
     <div className='appre'>

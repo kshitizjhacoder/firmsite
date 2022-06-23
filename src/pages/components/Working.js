@@ -1,6 +1,7 @@
 import React from 'react'
 import './Working.css'
-import Image from './Images/doodleart1.jpg'
+import Image  from './media/wdd2.webp'
+
 
 const containers =[
     {

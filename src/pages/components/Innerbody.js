@@ -1,7 +1,9 @@
 import React from 'react'
 import { ReactDOM } from 'react'
 import './Innerbody.css'
-import Images from './doodleart1.jpg' 
+// import './App.css'
+import Images  from './media/wdd2.webp'
+
 import Iconright  from './arrow-right-solid.svg'
 import { useState } from 'react'
 const Innerbody=()=>{
@@ -17,16 +19,14 @@ const Innerbody=()=>{
   return (
     <div className='body-layout'>
       <div className='inner-body'>
-        <h1 className='topic-layout'>Your Venture,</h1>
-        <h1 className='topic-layout'>Our Commitment</h1>
-        <div className='description'>Reach new heights with us!</div>
+        <h1>Your Venture,</h1>
+        <h1>Our Commitment</h1>
+        <span className='description'>Reach new heights with us!</span>
         <div className='login'>
             <input className='input' placeholder='Email/Phone number' onChange={(e)=>{value=e.target.value}}></input>
-            <button className='btn-start'>
-              <span className='circle'>
-                <span className='icon arrow'></span>
-              </span>
-              <span className='text'>Get Started</span>
+            <button className='btn-start'>  
+                {/* <span className='text'>Get Started</span> */}
+                Get Started 
             </button>
         </div>
       </div>

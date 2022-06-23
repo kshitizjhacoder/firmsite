@@ -1,5 +1,5 @@
-import Images from './Images/doodleart1.jpg'
-import Icon from './Images/icons8-scream.svg'
+import Images  from './media/wdd2.webp'
+import Icon from './media/icons8-scream.svg'
 const Services_components=[
     {
         key:"WebDev",
