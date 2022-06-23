@@ -5,47 +5,58 @@
     font-weight: 700;
     letter-spacing: 1px ;
     height:6rem;
-    width: 1380px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .about-us{
-    margin: 40px 100px 100px 0;
+    margin: 40px;
     padding: 10px;
-    width: 1380px;
+    width: inherit;
     display: flex;
     justify-content:center;
     align-items: center;
 }
 .about-pic{
     /* justify-self: flex-end; */
-    height: 250px;
-    width: 500px;
+    height: 400px;
+    width: 600px;
     z-index: 1;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: var(--shadow-high) ;
 }
 .about-us-read
 {
-    width: 60%;
-    height: 50vh;
+    width: 50%;
+    height: 55vh;
     z-index: 0;
-    margin-left: -55px;
+    margin-left: -75px;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    /* text-align: center; */
     background:#f7b244;
     padding-top:10vh;
-    box-shadow: 10px 10px 2px 1px rgb(175, 155, 91);
+    /* box-shadow: 10px 10px 2px 1px rgb(175, 155, 91); */
 }
 .about-us-head{
     position:relative;
-    left: 150px;
+    /* left: 150px;  */
+    text-align: right;
     background: transparent;
     margin-bottom: 40px;
     letter-spacing: 1px;
     font-family: cursive;
     font-weight: 600;
+    margin-right: 30px;
+    padding-right: 35px;
 }
 .about-us-body{
     position: relative;
-    left: 30px;
+    /* left: 30px; */
+    text-align: right;
     font-family:cursive;
     letter-spacing: 1px;
     word-spacing: 3px;

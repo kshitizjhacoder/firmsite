@@ -1,43 +1,48 @@
 import React ,{useState}from 'react'
 import './Services.css'
-import Image  from './Images/doodleart1.jpg'
+import Image1  from './media/wdd2.webp'
+import Image2  from './media/ssm [Recovered].webp'
+import Image3  from './media/Content writing2.webp'
+import Image4  from './media/dandi.webp'
+import Image5  from './media/photography.webp'
+// import Image6  from './media/wdd2.webp'
 
 const service_container=[
     {
         
         head:'Web Development',
-        image:Image
+        image:Image1
     },
     {
         
         head:'Social Media Management',
-        image:Image,
+        image:Image2,
         description:"From creating curated content for your posts to daily ad based campaigning, whether it be instagram to twitter. We got you convered!"
     },
     {
         
         head:'Content Creation',
-        image:Image,
+        image:Image3,
         description:"Providing catchy and creative content including SEOs,maximising public reach as well as context overhaling for existing websites."
     },
     {
         
         head:'Design & Illustrations',
-        image:Image,
+        image:Image4,
         description:"Creating illustrations and designs for products and for various other purpose including stock animations"
     },
     {
         
         head:'Creative Products Promotion',
-        image:Image,
+        image:Image5,
         description:"Product photography,videography for advertising and exclusive customer satisfaction."
     },
-    {
+    // {
        
-        head:'Social Media Management',
-        image:Image,
-        description:"From creating curated content for your posts to daily ad based campaigning, whether it be instagram to twitter. We got you convered!"
-    }
+    //     head:'Social Media Management',
+    //     image:Image6,
+    //     description:"From creating curated content for your posts to daily ad based campaigning, whether it be instagram to twitter. We got you convered!"
+    // }
 ]
 const Services=() =>{
     const [showme ,setShowme]=useState('later');
@@ -72,15 +77,15 @@ const Services=() =>{
                 {showme==='fourth'&&<div className='card-desc'>{service_container[3].description}</div>}
                 <h2 className='card-head'onMouseEnter={()=>{setTimeout(()=>{setShowme("fifth");setShowpic('5th')},600)}} >{service_container[4].head}</h2>
                 {showme==='fifth'&&<div className='card-desc'>{service_container[4].description}</div>}
-                <h2 className='card-head'onMouseEnter={()=>{setTimeout(()=>{setShowme("sixth");setShowpic('6th')},600)}}>{service_container[5].head}</h2>
-                {showme==='sixth'&&<div className='card-desc'>{service_container[5].description}</div>}
+                {/* <h2 className='card-head'onMouseEnter={()=>{setTimeout(()=>{setShowme("sixth");setShowpic('6th')},600)}}>{service_container[5].head}</h2>
+                {showme==='sixth'&&<div className='card-desc'>{service_container[5].description}</div>} */}
             </div>
             {showpic==="1st" && <img src={service_container[0].image} className='card-pic'/>}
             {showpic==="2nd" && <img src={service_container[1].image} className='card-pic'/>}
             {showpic==="3rd" && <img src={service_container[2].image} className='card-pic'/>}
             {showpic==="4th" && <img src={service_container[3].image} className='card-pic'/>}
             {showpic==="5th" && <img src={service_container[4].image} className='card-pic'/>}
-            {showpic==="6th" && <img src={service_container[5].image} className='card-pic'/>}
+            {/* {showpic==="6th" && <img src={service_container[5].image} className='card-pic'/>} */}
 
 
         </div>

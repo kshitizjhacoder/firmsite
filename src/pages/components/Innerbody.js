@@ -2,7 +2,8 @@ import React from 'react'
 import { ReactDOM } from 'react'
 import './Innerbody.css'
 // import './App.css'
-import Images from './doodleart1.jpg' 
+import Images  from './media/wdd2.webp'
+
 import Iconright  from './arrow-right-solid.svg'
 import { useState } from 'react'
 const Innerbody=()=>{
