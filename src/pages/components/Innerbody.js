@@ -1,6 +1,7 @@
 import React from 'react'
 import { ReactDOM } from 'react'
 import './Innerbody.css'
+
 // import './App.css'
 import Images  from './media/wdd2.webp'
 
@@ -24,10 +25,16 @@ const Innerbody=()=>{
         <span className='description'>Reach new heights with us!</span>
         <div className='login'>
             <input className='input' placeholder='Email/Phone number' onChange={(e)=>{value=e.target.value}}></input>
-            <button className='btn-start'>  
-                {/* <span className='text'>Get Started</span> */}
-                Get Started 
-            </button>
+            <div className='login_get'>
+              <button>
+                <span className='circle'>
+                  {/* <span className='material-icons arrow'>arrow_forward_ios</span> */}
+                  <span className='icon arrow'></span>
+                  {/* <span>Get Started</span> */}
+                </span>
+                <span className="text">Get Started</span>
+              </button>
+            </div>
         </div>
       </div>
       <img src={Images} alt='photo' className='imag'/>
