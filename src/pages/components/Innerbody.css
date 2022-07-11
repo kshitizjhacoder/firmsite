@@ -9,25 +9,66 @@
 
     width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items:flex-start;
-    background: transparent;
+    /* background: transparent; */
 }
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
 .inner-body{
     /* width: 70%; */
     margin-left: 4pc;
     margin-top: 6rem;
     align-items: center;
+    max-width: 50%;
 }
 .inner-body h1{
-    width: 500px;
+    /* width: min-content; */
     line-height: 60px;
     font-family:'Fredoka',sans-serif;
     font-style:normal;
     letter-spacing: 0.055em;
     font-weight: 600;
     font-size: 55px;
-    background-color:transparent;
+    /* background-color:transparent; */
 }
 .description{
     position: relative;
@@ -63,8 +104,89 @@
     cursor:text;
 }
 
-
+/* new button css starts here */
 div.login button{
+    position: relative;
+    border: 0;
+    display: inline-block;
+    width: 12rem;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    background: transparent;
+}
+
+span.circle{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #ff9a3f;
+    transition: all 0.4s ease-in-out;
+}
+
+span.text{
+    position: absolute;
+    inset: 0;
+    padding: 0.9rem 0;
+    margin-left: 1.85rem;
+    color: #000;
+    line-height: 1.6;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+span.icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+span.arrow{
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.arrow::before{
+    content: "";
+    position: absolute;
+    top: -0.3rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem; 
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+div.login button:hover .circle{
+    width: 100%;
+    border-radius: 20px;
+}
+
+div.login button:hover .arrow{
+    background: #fff;
+    transform: translateX(10rem);
+    -webkit-transform: translateX(10rem);
+    -moz-transform: translateX(10rem);
+    -ms-transform: translateX(10rem);
+    -o-transform: translateX(10rem);
+}
+
+div.login button:hover .text{
+    color: var(--white);
+}
+
+
+/* div.login button{
     width: 8vw;
     height: 40px;
     border-radius: 20px;
@@ -73,7 +195,7 @@ div.login button{
     border: none;
     color: var(--ptc);
     background: var(--ap);
-}
+} */
 input:hover{
     border:2px solid #b37d27;
 }
@@ -83,4 +205,33 @@ input:hover{
     margin-right: 5rem;
     height: 400px;
     width: 600px;
+}
+
+/* Desktop View */
+/* @media only screen and (min-width: 755px) {
+    
+} */
+
+/* Mobile View */
+@media only screen and (max-width: 1000px) {
+    .body-layout{
+        padding-top: 5vh;
+        padding-left: 25px;
+    
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-start;
+        /* background: transparent; */
+    }
+
+    .login{
+        margin-top: 2pc;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }

@@ -20,20 +20,29 @@
     padding-bottom: 20px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    /* overflow: hidden; */
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden;*/
 }
 .work-1{
-    width: 35rem;
+    width: 28rem;
+    /* width: max-content; */
     height: 11rem;
     padding: 10px;
     display: flex;
-    /* height: calc(100vh - 500px); */
+    /* height: calc(100vh - 500px);  */
     flex-direction: row;
-    margin:10px auto; 
+    margin:10px; 
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: var(--shadow-high);
+    /* background-color: var(--bgb); */
 }
+
 .work-photo{
     float: left;
     padding-left: 35px;

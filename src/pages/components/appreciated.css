@@ -26,13 +26,34 @@
     position: relative;
     background-color:transparent;
     top: 90px;
-    width: 100%;
+    /* width: 100%; */
     height: 30vh;
     display: flex;
     flex-direction: row ;
     justify-content: space-around;
 }
 .trusted-logo{
-    border-radius: 60%;
-    width: 130px;
+    /* border-radius: 60%; */
+    width: 80%;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 1000px) {
+    .cards{
+        position: relative;
+        background-color:transparent;
+        top: 90px;
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+
+    .trusted-logo{
+        /* border-radius: 60% ; */
+        width: 80vw;
+        align-items: center;
+        justify-content: center;
+    }
 }
