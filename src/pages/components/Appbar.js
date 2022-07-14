@@ -1,8 +1,34 @@
 import React from 'react'
-import { Menuitem, MenuItems } from './Menuitem';
 import './Appbar.css';
 
 export default function Appbar() {
+  const Menuitem = [
+    {
+        title:'Home',
+        url:'#',
+        cname:'nav-links'
+    },
+    {
+        title:'Services',
+        url:'#',
+        cname:'service-links'
+    },
+    {
+        title:'Blog',
+        url:'#',
+        cname:'nav-links'
+    },
+    {
+        title:'About',
+        url:'#',
+        cname:'nav-links'
+    },
+    {
+        title:'Contact',
+        url:'#',
+        cname:'nav-links-contact'
+    }
+]
   return (
     <nav className='layout-box'>
       <div className='menu-icon'>
