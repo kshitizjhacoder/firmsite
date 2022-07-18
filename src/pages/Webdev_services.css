@@ -15,7 +15,7 @@
 .head-design-head-web{
     margin-left: -7pc;
     letter-spacing: 1px;
-    font-family: 'Fredoka';
+    /* font-family: 'Fredoka'; */
     font-weight: 700;
     font-size: 50px;
 }
@@ -84,7 +84,7 @@ ul{
     background-color: transparent;
     word-spacing: 2px;
     font-weight: 550;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 18px;
     color: aliceblue;
 }

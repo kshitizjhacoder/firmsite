@@ -1,51 +1,58 @@
-.head-design-social{
-    padding: 1pc;
-    width: 100%;
-    padding-left: 60vh;
-    
+.head-design{
+    /* padding: 1pc; */
+    width: 100vw;
+    /* padding-left: 60vh; */
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
 }
-.head-design-pic-social{
+.head-design-pic{
     width: 35pc;
-    height: 20pc;
+    /* height: 20pc; */
+    justify-content: center;
 }
-.head-design-container-social{
-    height: 6.5pc;
-    padding-left: 5pc;
+.head-design-container{
+    width: 100%;
+    /* height: 6.5pc; */
+    /* padding-left: 5pc; */
 }
-.head-design-head-social{
-    margin-left: -5pc;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    font-family: 'Fredoka';
+.head-design-head{
+    /* margin-left: -5pc; */
+    /* letter-spacing: 2px;
+    word-spacing: 4px; */
+    /* font-family: 'Fredoka'; */
     font-weight: 700;
     font-size: 50px;
 }
-.head-design-sub-social{
-    margin-top: 0px;
+.head-design-sub{
+    /* margin-top: 0px; */
     font-weight: 600;
     font-family:'Readex Pro';
     display: flex;
     justify-content: center;
-    padding-right: 3pc;
+    /* padding-right: 3pc; */
 }
-.design-body-social{
+.design-body{
     font-weight: 600;
     font-family:'Readex Pro';
-    padding-left: 5pc;
-    padding-right: 5pc;
-    padding-bottom: 5pc;
+    /* padding-left: 5pc; */
+    /* padding-right: 5pc; */
+    /* padding-bottom: 5pc; */
     font-size: 30px;
     letter-spacing: 1px;
 }
-.sub-design-social{
+.sub-design{
     width: 100%;
     padding-left: 7pc;
     padding-right: 7pc;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    /* justify-content: space-between; */
     align-items: center;
 }
-.tag1-social{
+.tag1{
     margin-top: -25pc;
     width: 40%;
     height: 30pc;
@@ -53,10 +60,9 @@
     background-color: #ff9a3f;
     border-radius: 0 5rem;
     box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
-
     /* color: azure; */
 }
-.head-sub-social{
+.head-sub{
     background-color:  transparent;
     margin-bottom: 1pc;
     letter-spacing: 1px;
@@ -64,7 +70,7 @@
     color: aliceblue;
     font-size: 30px;
 }
-.body-sub-social{
+.body-sub{
     background-color:transparent;
     font-weight: 600;
     letter-spacing: 2px;
@@ -75,38 +81,36 @@
     font-size: 20px;
     float: left;
 }
-.tag2-social{
+.tag2{
     width: 40%;
     margin-top: 15pc;
     padding: 5pc;
     background-color:#ff9a3f;
     border-radius: 0 5rem;
-    box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
-    
+    box-shadow: var(--shadow);
     /* color: azure; */
 }
-.icon-social1{
+.icon{
     position: absolute;
     top:152vh;
     left:200px;
 }
-.icon-social2{
+.icon{
     position: absolute;
     top:152vh;
     left:350px;
 }
-.icon-social3{
+/* .icon{
     position: absolute;
     top:164vh;
     left:300px;
-}
-.tag3-social{
+} */
+.tag3{
     width: 40%;
     margin-top: -15pc;
     padding: 5pc;
     background-color:#ff9a3f;
     border-radius: 0 5rem;
-    box-shadow: 25px 15px 100px rgba(0, 0,0, 0.25);
-    
+    box-shadow: var(--shadow);
     /* color: azure; */
 }
